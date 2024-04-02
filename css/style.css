@@ -57,7 +57,7 @@ html{
 }
 /* SECCION I N I C I O */
 .inicio{
-    background: url("../img/fondo.png");
+    background-image: url("../img/fondo.png");
     background-size: cover;
     height: 100vh;
     color: #fff;
