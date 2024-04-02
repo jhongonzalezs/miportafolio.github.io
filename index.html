@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Icono-->
+     <link rel="icon" type="image/x-icon" href="img/logo.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Jhon Gonzalez</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- MENU  -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Jhon Gonzalez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="curriculum.html" >CV</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/perfil.png" alt="">
+            </div>
+            <h1>Jhon Jairo Gonzalez Sanchez.</h1>
+            <h2>Desarrollador Web Junior</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/jhonjairo.gonsalezsanchez.7"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/JhonGon76060668?s=09"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/jhongonzalezs"><i class="fa-brands fa-github"></i>
+                <a href="https://www.linkedin.com/in/jhon-gonzalez-web-developer/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jhon Jairo González.</span> Soy técnico en programación de software certificado por el alemán Sena Colombo, con experiencia en desarrollo web y pasión por brindar una excelente experiencia de usuario. He creado plataformas web para abordar la contaminación ambiental y también tengo un proyecto de subasta. Mis habilidades incluyen bases de datos, programación web y diseño. Actualmente estoy estudiando en la universidad, donde he ganado experiencia en lenguajes como Java y estoy aprendiendo Python y JavaScript entre otros. Soy un colaborador entusiasta y siempre estoy buscando aprender más.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            31-12-2001
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 3106522234
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            gonzalezsanchezjhonjairo1@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            CRA 1A1 N41C-24 CIUDADELA
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador Web Junior</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-chess"></i>
+                            <span>CHESS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-swimming"></i>
+                            <span>NATACION</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FUTBOL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-file-video"></i>
+                            <span>PELICULAS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a class="button" style="text-decoration:none"; href="PDF/CVJhonGonzalez.pdf" download><span class="overlay"></span><i class="fa-solid fa-download"></i> Descargar CV </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>FORTALEZAS</h3>
+                    <div class="skill">
+                        <span>JAVASCRIPT</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MYSQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>JAVA</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>ANGULAR</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>NODEJS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PYTHON</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>GIT</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SASS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>APTITUDES O ACTITUDES</h3>
+                    <div class="skill">
+                        <span>Trabajo en equipo </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Iniciativa</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Líder</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Honestidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Perseverancia </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Lealtad </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Técnico en Programación de Software</h4>
+                        <span class="casa">Sena Colombo alemán</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <p>Obtuve mi certificación como técnico en programación de software, lo cual me ha permitido adquirir un amplio conjunto de habilidades y conocimientos en el campo de la programación. Durante mi formación, me enfoqué en dominar lenguajes de programación altamente demandados, como Java, que me brinda una sólida base para desarrollar aplicaciones robustas y escalables.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingenieria de sistemas</h4>
+                        <span class="casa">Universidad de la costa.</span>
+                        <span class="fecha">2021 - En progreso </span>
+                        <p>Actualmente, me encuentro inmerso en la dedicación de mi formación académica, persiguiendo una carrera en ingeniería de sistemas. Mi principal objetivo es expandir y enriquecer mi bagaje de conocimientos en el ámbito tecnológico. A través de mi compromiso y esfuerzo constante, busco adquirir una comprensión profunda y actualizada de los sistemas informáticos y su funcionamiento.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Proyecto personal</h4>
+                        <span class="casa">Videojuego con Unity y C SHARP</span>
+                        <span class="fecha">2019</span>
+                        <p>Me he involucrado en el emocionante mundo del desarrollo de juegos tanto en 2D como en 3D, donde he tenido la oportunidad de trabajar en diversos proyectos que requieren un estrecho acoplamiento con el lenguaje de programación C#. Esta experiencia me ha permitido explorar y dominar las complejidades de la creación de juegos, centrándome especialmente en la implementación de movimientos y habilidades para los personajes.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Proyecto de estudio certificado Sena</h4>
+                        <span class="casa">Aplicativo web con HTML5, CSS, PHP y MySQL.</span>
+                        <span class="fecha">2020</span>
+                        <p>Estas páginas web que desarrollo tienen como objetivo concienciar a las personas sobre la importancia de adoptar hábitos sostenibles y brindarles herramientas prácticas para que puedan tomar decisiones informadas. Además de ofrecer información detallada sobre los diversos tipos de reciclaje y cómo llevarlos a cabo de manera efectiva, también proporciono consejos sobre cómo reducir el consumo de plástico, cómo gestionar adecuadamente los residuos electrónicos y cómo promover la conservación de recursos naturales.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Proyecto Comco</h4>
+                        <span class="casa">Aplicativo web con JS, Angular, NodeJs, JQuery, Entre otras.</span>
+                        <span class="fecha">2021</span>
+                        <p>Estoy trabajando en el desarrollo de un emocionante proyecto que consiste en la creación de una página de subastas en línea. Este proyecto ha sido concebido con el propósito de brindar a los usuarios una plataforma dinámica y segura para comprar y vender una amplia variedad de productos a través de un sistema de subastas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://github.com/jhongonzalezs/DesarrolloWeb/tree/main">
+                        <img src="img/natural.png" alt="Naturaleza">
+                    </a>
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/jhongonzalezs/DesarrolloWeb/tree/main/Dise%C3%B1o_De_Ingenieria">
+                        <img src="img/airplane.png" alt="Airplane">
+                    </a>
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/jhongonzalezs/DesarrolloWeb/tree/main/SubastasCountry">
+                        <img src="img/subasta.png" alt="">
+                    </a>
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="">
+                        <img src="img/p4.jpg" alt="">
+                    </a>
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="">
+                        <img src="img/p5.jpg" alt="">
+                    </a>
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="">
+                        <img src="img/p6.jpg" alt="">
+                    </a>
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <form method="POST" action="php/correo.php" role="form" novalidate="novalidate">
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre" name="name">
+                    <input type="text" placeholder="Dirección de correo" name="email">
+                    <input type="text" placeholder="Tema" name="subject">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Barranquilla - Atlántico CRA 1A1 N41C-24 CIUDADELA
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: 310 652 2234 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: gonzalezsanchezjhonjairo1@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/jhonjairo.gonsalezsanchez.7"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/JhonGon76060668?s=09"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/jhongonzalezs"><i class="fa-brands fa-github"></i>
+                <a href="https://www.linkedin.com/in/jhon-gonzalez-web-developer/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
