@@ -31,16 +31,19 @@ function efectoHabilidades(){
         habilidades[7].classList.add("python");
         habilidades[8].classList.add("git");
         habilidades[9].classList.add("sass");
-        habilidades[10].classList.add("python");
-        habilidades[11].classList.add("comunicacion");
-        habilidades[12].classList.add("trabajo");
-        habilidades[13].classList.add("creatividad");
-        habilidades[14].classList.add("dedicacion");
-        habilidades[15].classList.add("proyect");
-        habilidades[16].classList.add("res");
-        habilidades[17].classList.add("hon");
-        habilidades[18].classList.add("perse");
-        habilidades[19].classList.add("leal");
+        habilidades[10].classList.add("react");
+        habilidades[11].classList.add("fire");
+        habilidades[12].classList.add("bots");
+        habilidades[13].classList.add("python");
+        habilidades[14].classList.add("comunicacion");
+        habilidades[15].classList.add("trabajo");
+        habilidades[16].classList.add("creatividad");
+        habilidades[17].classList.add("dedicacion");
+        habilidades[18].classList.add("proyect");
+        habilidades[19].classList.add("res");
+        habilidades[20].classList.add("hon");
+        habilidades[21].classList.add("perse");
+        habilidades[22].classList.add("leal");
     }
 }
 

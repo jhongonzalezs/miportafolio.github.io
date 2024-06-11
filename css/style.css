@@ -360,6 +360,33 @@ html{
     100%{width: 20%;}
 }
 
+.skills .skill .react{
+    width: 0%;
+    animation: 2s react forwards;
+}
+@keyframes react {
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+
+.skills .skill .fire{
+    width: 0%;
+    animation: 2s fire forwards;
+}
+@keyframes fire {
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+
+.skills .skill .bots{
+    width: 0%;
+    animation: 2s bots forwards;
+}
+@keyframes bots {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+
 
 /* Skill */
 .skills .skill .comunicacion{
@@ -709,7 +736,7 @@ footer .arriba{
     font-size: 18px;
 }
 /* SECCION RESPONSIVE */
-@media screen and (max-width:980px){
+@media screen and (max-width:950px){
     nav{
         display: none;
     }
@@ -730,6 +757,9 @@ footer .arriba{
     nav.responsive ul li{
         border-bottom: 1px solid #fff;
         padding: 10px 0;
+    }
+    .inicio .contenido-banner{
+        justify-content: center;
     }
 }
 @media screen and (max-width:700px){
@@ -775,5 +805,9 @@ footer .arriba{
     }
     .contacto .fila .col{
         width: 100%;
+    }
+
+    .inicio .contenido-banner{
+        margin: 0 auto;
     }
 }
