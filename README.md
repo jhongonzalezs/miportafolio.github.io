@@ -4,6 +4,8 @@
 
 ### Ingeniero de Sistemas · Desarrollador Full Stack
 
+https://jhongonzalezs.github.io/miportafolio.github.io/
+
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white&style=for-the-badge)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white&style=for-the-badge)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-4-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge)](https://tailwindcss.com/)
@@ -43,9 +45,6 @@ Diseñado con un enfoque **mobile-first**, paleta oscura con acentos dorados, y 
 | **Gestor de paquetes** | npm |
 
 
-Abre http://localhost:5173/miportafolio.github.io/ en el navegador.
-
-
 ## 🚀 Instalación local
 
 ### Requisitos previos
@@ -65,3 +64,6 @@ npm install
 
 # 3. Iniciar el servidor de desarrollo
 npm run dev
+
+Abre http://localhost:5173/miportafolio.github.io/ en el navegador.
+
