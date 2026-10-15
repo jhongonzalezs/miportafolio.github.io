@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #FFC300;
+  --color-dark: #0f1115;
+  --color-dark-2: #1a1d23;
+  --color-dark-3: #252A2E;
+  --font-display: 'Righteous', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-dark);
+  color: white;
+  font-family: var(--font-body);
+}
