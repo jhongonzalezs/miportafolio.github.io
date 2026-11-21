@@ -37,7 +37,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="w-40 h-40 mx-auto rounded-full border-4 border-brand overflow-hidden shadow-[0_0_40px_rgba(255,195,0,0.3)] mb-8"
         >
-          <img src="public/img/perfil.png" alt="Perfil" className="w-full h-full object-cover" />
+          <img src={`${import.meta.env.BASE_URL}img/perfil.png`} alt="Perfil" className="w-full h-full object-cover" />
         </motion.div>
 
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-brand min-h-[60px] md:min-h-[80px]" style={{ fontFamily: 'Righteous' }}>
