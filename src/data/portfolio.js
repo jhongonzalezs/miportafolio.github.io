@@ -7,7 +7,7 @@ export const perfil = {
   ubicacion: "Barranquilla, Atlántico",
   github: "https://github.com/jhongonzalezs",
   linkedin: "https://www.linkedin.com/in/jhon-gonzalez-web-developer/",
-  cvUrl: "/miportafolio.github.io/PDF/CV_Jhon_Jairo_Gonzalez_v0.1.9.2.pdf",
+  cvUrl: `${import.meta.env.BASE_URL}PDF/CV_Jhon_Jairo_Gonzalez_v0.1.9.2.pdf`,
 };
 
 export const skills = {
@@ -125,35 +125,35 @@ export const proyectos = [
     categoria: "Proyecto empresarial",
     descripcion: "Plataforma de asistencia digital para Terpel.",
     link: "https://lisaassistance.terpel.com/",
-    imagen: "/miportafolio.github.io/img/lisaassistence.png",
+    imagen: `${import.meta.env.BASE_URL}img/lisaassistence.png`,
   },
   {
     titulo: "Megaleasing Corp.",
     categoria: "Sitio corporativo",
     descripcion: "Landing page corporativa responsiva.",
     link: "https://megaleasing-corp.vercel.app",
-    imagen: "/miportafolio.github.io/img/megalisingcorp.png",
+    imagen: `${import.meta.env.BASE_URL}img/megalisingcorp.png`,
   },
   {
     titulo: "Subastas Country",
     categoria: "Aplicación web",
     descripcion: "Plataforma de subastas en línea para emprendedores.",
     link: "https://github.com/jhongonzalezs/DesarrolloWeb/tree/main/SubastasCountry",
-    imagen: "/miportafolio.github.io/img/subasta.png",
+    imagen: `${import.meta.env.BASE_URL}img/subasta.png`,
   },
   {
     titulo: "Investigacion UA",
     categoria: "Aplicación web",
     descripcion: "Modulo de investigacion universidad del atlantico",
     link: "https://www.uniatlantico.edu.co/departamento-de-investigaciones/grupos-de-investigacion/",
-    imagen: "/miportafolio.github.io/img/UA.png",
+    imagen: `${import.meta.env.BASE_URL}img/UA.png`,
   },
   {
     titulo: "Inventario tienda local",
     categoria: "Aplicación escritorio",
     descripcion: "Sistema de inventario y punto de venta para tiendas sin acceso a internet",
     link: "https://github.com/jhongonzalezs/inventario-tienda.git",
-    imagen: "/miportafolio.github.io/img/Tienda.png",
+    imagen: `${import.meta.env.BASE_URL}img/Tienda.png`,
   },
 ];
 
